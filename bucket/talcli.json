@@ -1,0 +1,17 @@
+{
+  "version": "2.1.2",
+  "description": "CLI and MCP server for the Talos manufacturing operations platform",
+  "homepage": "https://talos.works",
+  "license": "Proprietary",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.1.2/talcli_2.1.2_windows-amd64.zip",
+      "hash": "91997d9ffd79493dc555960ed8d77db7fa8c1ca7021ff1503e1416264235872d"
+    },
+    "arm64": {
+      "url": "https://github.com/kivanccakmak/talos-binaries/releases/download/v2.1.2/talcli_2.1.2_windows-arm64.zip",
+      "hash": "d478a57a0e0b945a53734fd141e47fd57b7f30ee6411324e56263e0505278da7"
+    }
+  },
+  "bin": "talcli.exe"
+}
